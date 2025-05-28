@@ -12,7 +12,6 @@ Le tout est conteneurisé par Docker.
 
 ## Installation locale 
 
-'''bash
 > python -m venv venv
 > venv\Scripts\activate #Windows
 > pip install -r requirements.txt
@@ -44,7 +43,7 @@ Le tout est conteneurisé par Docker.
 > pytest tests/
 
 ## Structure de projet
-
+'''bash
 file-downloader-dockerise/
 ├── app/
 │   ├── __init__.py
@@ -59,3 +58,4 @@ file-downloader-dockerise/
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
+'''
