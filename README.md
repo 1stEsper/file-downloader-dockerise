@@ -13,8 +13,11 @@ Le tout est conteneurisé par Docker.
 ## Installation locale 
 
 > python -m venv venv
+>
 > venv\Scripts\activate #Windows
+>
 > pip install -r requirements.txt
+>
 > python run.py
 
 
