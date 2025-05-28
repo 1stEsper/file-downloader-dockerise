@@ -31,13 +31,13 @@ Apres lancé l'application, vous pouvez tester l'API :
 ## Lancement avec Docker 
 
 1. Construire l'image
-
-> docker build -t file-downloader .
-
+```json
+docker build -t file-downloader .
+```
 2. Lancer le contener
-
-> docker run -v ${PWD}\data:/data -p 5000:5000 file-downloader
-
+```json
+docker run -v ${PWD}\data:/data -p 5000:5000 file-downloader
+```
 ## Endpoints 
 
 | Méthode | URL                         | Description                    |
@@ -48,9 +48,9 @@ Apres lancé l'application, vous pouvez tester l'API :
 
 
 ## Lancer les test
-
-> pytest tests/
-
+```json
+pytest tests/
+```
 ## Structure de projet
 ```
 file-downloader-dockerise/
