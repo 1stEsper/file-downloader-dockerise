@@ -18,6 +18,15 @@ Le tout est conteneurisé par Docker.
 > python run.py
 
 
+## Exemple d'appel API
+
+Apres lancé l'application, vous pouvez tester l'API : 
+
+- Accédez à navigateur : [http://localhost:5000/api/files](http://localhost:5000/api/files)
+- Vous allez voir la réponse JSON contenant la liste des fichiers du dossier `data`, par exemple :
+```json
+["test.txt"]
+```
 
 ## Lancement avec Docker 
 

@@ -3,7 +3,7 @@ import sys
 import tempfile
 import pytest
 
-# ✅ Ajout du chemin parent dans sys.path pour trouver 'app'
+# Assurez-vous que le chemin vers l'application est dans sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from app import create_app
